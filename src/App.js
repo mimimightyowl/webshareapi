@@ -5,13 +5,13 @@ function App() {
   const shareUrl = "https://www.youtube.com/";
   const handleSmsButtonClick = () => {
     // eslint-disable-next-line no-undef
-    // window.location.href = `sms:?body=Take a ride with me: ${shareUrl}`;
-    const url = window.location.href;
-    navigator.share({
-      url,
-      text: ` Take a ride with me: ${shareUrl}`,
-      title: "Title",
-    });
+    window.location.href = `sms:&body=Take a ride with me: ${shareUrl}`;
+    // const url = window.location.href;
+    // navigator.share({
+    //   url,
+    //   text: ` Take a ride with me: ${shareUrl}`,
+    //   title: "Title",
+    // });
   };
 
   return (
