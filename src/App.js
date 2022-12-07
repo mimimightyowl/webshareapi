@@ -2,8 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const shareUrl =
-    "https://adventures.polaris.com/adventure/motorcycle-rental-vancouver-british-columbia/";
+  const shareUrl = "https://www.youtube.com/";
   const handleSmsButtonClick = () => {
     // eslint-disable-next-line no-undef
     window.location.href = `sms:?body=Take a ride with me: ${shareUrl}`;
